@@ -1,9 +1,11 @@
-#Crear un ALGORITMO que ingrese cualquier número, después multiplique
-#por 4, ese resultado lo divide en 2. El resultado final debe ser mostrado
-#en pantalla.
-
-n=float(input("Ingrese un número: "))
-n=n*4
-n=n/2
-n=int(n)
-print("El resultado es: ",n)
+print("Registro de clientes \n")
+x=2
+while x ==2:
+    nom=input("Nombre cliente: ")
+    tel=input("Teléfono: ")
+    es=input("Estado civil: ")
+    print(nom, " es ", es)
+    x=x-2
+    p=input("Desea ingresar otro cliente?[S/N]: ")
+    if p == "S" or p =="s":
+        x+=2
