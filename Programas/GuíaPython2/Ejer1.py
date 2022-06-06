@@ -7,7 +7,7 @@ x=1
 sum=0
 while x <=3:
     n=float(input(f"Ingrese la nota {x}: " ))
-    if n >=1 and n <=7:
+    if n >=1.0 and n <=7.0:
         sum=sum+n
         x=x+1
         print("\nNota ingresada con exito\n")

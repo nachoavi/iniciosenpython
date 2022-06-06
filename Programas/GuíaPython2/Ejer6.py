@@ -1,11 +1,18 @@
-#Crear un ALGORITMO que permita ingresar ticket de entradas (código,
-#precio), para un evento. Los ingresos no deben exceder las 10 entradas
-#Finalmente mostrar el total recaudado. 
-sum=0
-x=0
-while x <3:
-    cod=input("Ingrse el codigo: ")
-    pre=int(input("Ingrese el precio: "))
-    sum=sum+pre
-    x=x+1
-print("\nEl total recaudado es: ",sum)
+#Crear un PROGRAMA que ingrese 2 números cualquiera, mostrar en
+#pantalla; su suma, resta, multiplicación, división y la raíz cuadrada del
+#primer número. Validar el ingreso para ciertas operaciones.
+from math import sqrt
+
+n1 = int(input("Ingrese el primer numero: "))
+n2 = int(input("Ingrese el segundo numero: "))
+
+s=n1+n2
+print(s)
+r=n1-n2
+print(r)
+m=n1*n2
+print(m)
+d=n1/n2
+print(d)
+ra=sqrt(n1)
+print("La raiz del primer numero es: ", ra)
