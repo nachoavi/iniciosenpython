@@ -1,4 +1,4 @@
-x=0
+x=1
 while x <=10:
     n=int(input("\nIngrese un numero: "))
     print("\nUsted ingreso el n°:",n)
