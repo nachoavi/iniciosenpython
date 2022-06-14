@@ -14,7 +14,7 @@ while x <=10:
         if(x==10):
             print("No se pueden ingresar mas entradas")
     else:
-        break
+        break #puede ser reemplazado asignando el 10 a la variable x (x=10)
     x+=1
 if sum > 20000:
     des=sum*0.10/x
