@@ -12,5 +12,5 @@ while x <=10:
     else:
         x=10                
     x+=1
-if x==10:
+if x>10:
     print("Los numeros se han registrado correctamente")
