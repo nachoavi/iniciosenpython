@@ -1,3 +1,8 @@
+def validSN(op):
+    while(op!="n" and op!="s" and op!="N" and op!="S"):
+        print("Ingrese una opción correcta, vuelva a intentar!!")
+        op=input("Desea ingresar otra venta? [S/N]: ")
+
 x=1
 sum=0
 while x <=10:
@@ -6,9 +11,7 @@ while x <=10:
     sum=sum+pre
 
     op=input("Desea ingresar otra venta? [S/N]: ")
-    while(op!="n" and op!="s" and op!="N" and op!="S"):
-        print("Ingrese una opción correcta, vuelva a intentar!!")
-        op=input("Desea ingresar otra venta? [S/N]: ")
+    validSN(op)
 
     if(op=="S" or op=="s"):
         if(x==10):
