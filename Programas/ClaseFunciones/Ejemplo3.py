@@ -43,13 +43,15 @@ restar(n1,n2) #Llamamos a la función restar y le pasamos los parametros n1 y n2
 
 
 #Llamar función sin parametros y con retorno
-print("Multiplicación de 2 numeros internos")
+print("Multiplicación de 2 numeros internos \n")
 resul=multiplicar()
 print("La multiplicación de los numeros es ", resul)  #Forma 1
 print("La multiplicación de los nuemeros es", multiplicar()) #Forma 2
 
 
 #Llamar función con parametros y con retorno
+print("Divición de 2 numeros \n")
+
 p=100
 q=30
 resul=dividir(p, q)
