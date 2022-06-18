@@ -1,10 +1,3 @@
-def validSN(op):
-    while(op!="n" and op!="s" and op!="N" and op!="S"):
-        print("Error, ingrese una opción correcta")
-        op=input("¿Desea regresar al menu principal? [S/N]: ")
-        if op == [S,s]:
-            break
-
 def sumar(a,b):
     su=a+b
     return su
