@@ -12,7 +12,11 @@ r=n1-n2
 print(r)
 m=n1*n2
 print(m)
-d=n1/n2
-print(d)
+
+if n2 == 0:
+    print("Error, no se puede dividir por 0")
+else:
+    d=n1/n2
+    print("div: ",d)
 ra=sqrt(n1)
 print("La raiz del primer numero es: ", ra)

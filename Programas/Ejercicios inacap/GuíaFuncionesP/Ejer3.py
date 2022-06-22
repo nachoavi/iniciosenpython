@@ -11,7 +11,12 @@ def multiplicar(a,b):
     return mul
 
 def dividir(a,b):
-    return a/b
+    if b!=0:
+        div=a/b
+    else:
+        print("No se puede dividir por 0")
+        return
+    return div
 
 def salir():
     exit()
@@ -20,9 +25,6 @@ def salir():
 print("MENU PRINCIPAL\n")
 print("1)Sumar \n2)Restar \n3]Multiplicar \n4)Dividir \n5)Salir \n")
 ing_num = input('Ingrese un número (1-5): ')
-while ing_num not in ["1","2","3","4","5"]:
-    print("Error, ingrese una opción correcta")
-    ing_num = input('Ingrese un número (1-5): ')
 
 if ing_num == "1":
     print("\nPrograma que suma\n")
@@ -51,10 +53,11 @@ elif ing_num == "4":
     n1=int(input("Ingrese el primer numero: "))
     n2=int(input("Ingrese el segundo numero: "))
     div=dividir(n1, n2)
-    print("El resultado de la divición es: ", div)
+    if div != None:
+        print("El resultado de la divición es: ", div)
 
 elif ing_num == "5":
-    salir()
+    print("El sistema ha finalizado")
 
 
 
