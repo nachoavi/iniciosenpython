@@ -11,7 +11,7 @@ def sumar():
 
 #Función con paŕametros y sin retorno
 def restar(a,b):
-    res=n1-n2
+    res=a-b
     print("La resta de los numeros es ", res)
 
 #Función sin parametros y con retorno
@@ -51,7 +51,6 @@ print("La multiplicación de los nuemeros es", multiplicar()) #Forma 2
 
 #Llamar función con parametros y con retorno
 print("Divición de 2 numeros \n")
-
 p=100
 q=30
 resul=dividir(p, q)
