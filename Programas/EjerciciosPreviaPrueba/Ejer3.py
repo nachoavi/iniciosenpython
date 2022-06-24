@@ -23,6 +23,11 @@ while op not in ["1","2","3","4","5"]:
     op=input("Seleccione una opción: ")
 if op == "1":
     n1=int(input("Ingrese el primer numero: "))
-    n2=int(input("Ingrese el segundo numero. "))
+    n2=int(input("Ingrese el segundo numero: "))
     resul=sumar(n1,n2)
+    print("El resultado es: ",resul)
+elif op == "2":
+    n1=int(input("Ingrese el primer numero: "))
+    n2=int(input("Ingrese el segundo numero: "))
+    resul=restar(n1, n2)
     print("El resultado es: ",resul)
