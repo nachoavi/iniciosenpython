@@ -13,6 +13,12 @@ for i in range(0,5):
     s=mayor+menor
 
 print("El numero mayor es :", mayor)
-print("El numero menor es ", menor)
+print("El numero menor es :", menor)
 print("La suma de las variables es: ",s)
 
+
+num2=[]
+for i in range(0,5):
+    num2.append(int(input("Ingrese un numero: ")))
+print(max(num2))
+print(min(num2))
