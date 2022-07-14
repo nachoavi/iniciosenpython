@@ -3,5 +3,5 @@ def ingresarTemp():
     temp=[]
     for dia in dia:
         temp.append(float(input("Ingrese la temperatura del dia "+ dia +" :")))
-    print(max(temp))
+    print("La temperatura maxima es de: ",max(temp))
 ingresarTemp()
