@@ -1,6 +1,6 @@
 print("Tabla del 5")
 print("-----------")
-num1  = 0
+num1  = int(input("Ingrese el numero: "))
 num2 = 5
 result = None
 while num1 < 15:

@@ -10,3 +10,5 @@ for i in range(0,personas.size):
         print(personas[i])
         resul=resul+1
         print("Resultados obtenidos: ",resul)
+if personas[i]!=nomBuscar:
+    print(f"{nomBuscar} NO ESTA EN LA LISTA")

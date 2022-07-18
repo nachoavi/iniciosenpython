@@ -15,3 +15,4 @@ for i in range(0,v2.size):
 for i in range(0,resul.size):
     resul[i]=v1[i]+v2[i]
     print(v1[i],"+",v2[i],"=",resul[i])
+
