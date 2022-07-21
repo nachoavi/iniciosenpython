@@ -10,11 +10,8 @@ def validarUsuario(usr,pasw):
             usr=input("Ingrese nombre de usuario: ")
             pasw=input("Ingrese contraseña: ")
             x=x+1
-
     if x >= 3:
         print("Numero de intentos maximo alcanzado, el sistema cerrará")
-
-
 
 print("Inicio de sesión")
 usr=input("Ingrese nombre de usuario: ")
