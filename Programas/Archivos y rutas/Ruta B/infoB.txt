@@ -1,0 +1,4 @@
+Nombre,Apellido,Telefono,Edad,Ciudad
+Luis,San Martin,999555,18,La Unión
+Lorena,Castillo,848188,18,La Unión
+Sebastian,Cardenas,841848,18,La Unión
