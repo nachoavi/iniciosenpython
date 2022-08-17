@@ -1,0 +1,4 @@
+La herencia es el mecanismo por el cual se logran reaprovechar los miembros de una o
+varias clases ya existentes(Si es una se llamaria herencia simple, si son varias se llaman
+herencias multiples)
+
