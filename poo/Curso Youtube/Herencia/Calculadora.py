@@ -39,7 +39,3 @@ class raíz(Calculadora):
         a, = self.datos
         print("La raíz cuadrada es: ",math.sqrt(a))
         
-
-ejemplo = op_basicas()
-ejemplo.ingresardato()
-ejemplo.suma()
