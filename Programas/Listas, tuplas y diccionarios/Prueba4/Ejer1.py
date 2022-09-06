@@ -20,7 +20,7 @@ for i in range(0, vector2.size):
 
 
 for i in range(0,resultado.size):
-    resultado[i]=vector1[i]*vector1[i]
+    resultado[i]=vector1[i]*vector2[i]
     print(vector1[i],"*",vector2[i],"=",resultado[i])
 
 
