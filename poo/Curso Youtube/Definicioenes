@@ -1,0 +1,12 @@
+Clase: Molde o plantilla para crear un objeto
+Objeto: 
+Instancia: Objeto especifico derivado de una clase
+
+
+Tipos de metodos:
+Existen 3 tipos de metodos; Metodos Estaticos, Metodos Clase y Metodos Instancia.
+-
+-
+Para indicar a python que usaremos un metodo de clase debemos anteponer @classmethod, este metodo
+puede ser llamado sin crear una instancia de la clase (Ya no será necesario llamar al metodo __init__)
+Este metodo no tiene acceso a atributos de instancia.
