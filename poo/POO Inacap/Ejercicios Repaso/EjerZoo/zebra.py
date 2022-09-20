@@ -7,4 +7,4 @@ class Zebra(Animales):
         self.sexo = sexo
         self.edad = edad
         self.especie = especie
-        self.tamaño = tamaño
+        slef.numeroRayasNegras = numeroRayasNegras

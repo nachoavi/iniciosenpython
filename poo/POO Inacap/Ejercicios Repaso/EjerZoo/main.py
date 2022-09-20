@@ -22,7 +22,7 @@ def registrarAnimal():
         edad = int(input("Ingrese edad en años: "))
         especie = input("Ingrese su especie: ")
         nuevoCanguro = Canguro(numID, nombre, sexo, edad, especie)
-        listaanimalCanguro.append(nuevoCanguro)
+        listaAnimalCanguros.append(nuevoCanguro)
     elif op == 2:
         numID = int(input("Ingrese la ID: "))
         nombre = input("Ingrese el nombre: ")
@@ -64,8 +64,14 @@ def registrarAnimal():
         listaAnimalJirafas.append(nuevaJirafa)
 
 def listarAnimales():
-    for i in listaAnimalCanguros:
-        print(f"ID:{i.numID} ")
+    print("Listar por: 1) Tipo\n 2)Especie\n 3)Todos")
+    op = int(input("> "))
+    if op == 1:
+        print("1)Canguros\n2)Cocodrilos\n3)Zebras\n4)Jirafas\n5)Leones")
+        op = int(input("> "))
+        if op == 1:
+            for i in listaAnimalCanguros:
+                print(f"ID: {i.numID}\nNombre: {i.nombre}\nSexo: {i.sexo}\n")
 
 def menu():
     x = 1
