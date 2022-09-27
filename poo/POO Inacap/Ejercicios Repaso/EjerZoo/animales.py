@@ -1,5 +1,6 @@
 class Animales:
-    def __init__(self,nombre,sexo,edad,especie):
+    def __init__(self,numID,nombre,sexo,edad,especie):
+        self.numID = numID
         self.nombre = nombre
         self.nombre = sexo
         self.edad = edad
